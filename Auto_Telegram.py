@@ -22,7 +22,7 @@ async def send(time):
 
 
 
-schedule.every(30).seconds.do(job)
+schedule.every(30).minutes.do(job)
 
 while True : 
 	schedule.run_pending()
